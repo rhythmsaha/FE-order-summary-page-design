@@ -103,10 +103,11 @@ main {
     color: var(--Desaturated-blue);
 }
 
-.pricing h4 {
+.pricing h2 {
     font-weight: 900;
     color: var(--Dark-blue);
     margin-bottom: 3px;
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 375px) {
