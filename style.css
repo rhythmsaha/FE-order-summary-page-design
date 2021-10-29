@@ -93,6 +93,7 @@ main {
     background: var(--Very-pale-blue);
     padding: 1.3rem;
     border-radius: 1rem;
+    transition: all 250ms;
 }
 
 .pricing {
@@ -105,6 +106,7 @@ main {
 .pricing h4 {
     font-weight: 900;
     color: var(--Dark-blue);
+    margin-bottom: 3px;
 }
 
 @media screen and (max-width: 375px) {
@@ -127,7 +129,14 @@ main {
     color: var(--Bright-blue);
     text-decoration: underline;
     font-size: 1rem;
+    transition: all 250ms;
     font-weight: 700;
+}
+
+.change_button:hover {
+    text-decoration: none;
+    color: hsl(245, 82%, 68%);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 375px) {
@@ -154,7 +163,13 @@ main {
     font-weight: 700;
     font-size: 1rem;
     border-radius: 10px;
+    transition: all 250ms;
     box-shadow: hsla(245, 75%, 52%, 0.45) 0px 7px 32px 0px;
+}
+
+.proceed:hover {
+    background-color: hsl(245, 82%, 68%);
+    cursor: pointer;
 }
 
 .cancel {
@@ -164,6 +179,12 @@ main {
     font-size: 1rem;
     font-weight: 700;
     color: var(--Desaturated-blue);
+    transition: all 250ms;
+}
+
+.cancel:hover {
+    color: var(--Dark-blue);
+    cursor: pointer;
 }
 
 footer {
@@ -183,4 +204,11 @@ footer {
 
 .footer a {
     color: var(--Bright-blue);
+}
+
+@media screen and (max-width: 375px) {
+    .footer {
+        padding: 0 2rem;
+        text-align: center;
+    }
 }
