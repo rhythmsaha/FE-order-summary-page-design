@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [solution](https://your-solution-url.com)
+-   Solution URL: [https://www.frontendmentor.io/solutions/ordersummarypagedesignwithhtmlcss-FNHS-a_aG](https://www.frontendmentor.io/solutions/ordersummarypagedesignwithhtmlcss-FNHS-a_aG)
 -   Live Site URL: [https://rhythmsaha.github.io/order-summary-page-design/](https://rhythmsaha.github.io/order-summary-page-design/)
 
 ## My process
