@@ -14,8 +14,8 @@
 
 body {
     background-image: url(./images//pattern-background-desktop.svg);
-    background-size: cover;
-    background-position: top;
+    background-size: contain;
+    background-position: fixed;
     background-repeat: no-repeat;
     background-color: var(--Pale-blue);
     font-family: "Red Hat Display", sans-serif;
